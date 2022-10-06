@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Construction\ Page\ for\ Website.png');
+}
+
+.container{
+  margin-top: 40px;
+  width: 40%;
+  height: 300px;
+  background-color: #270641;
+  border-radius: 25px;
+  color: #FFB8BC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.container p{
+  margin: 3px;
+}
