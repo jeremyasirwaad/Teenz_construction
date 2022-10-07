@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  /* overflow-x: hidden; */
   padding: 0px;
 }
 
@@ -8,15 +9,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-image: url('./Construction\ Page\ for\ Website.png');
+  background-image: url('./Construction\ Page\ for\ Website.png');  
 }
 
 .container{
   margin-top: 40px;
-  width: 40%;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   background-color: #270641;
   border-radius: 25px;
   color: #FFB8BC;
@@ -24,9 +25,34 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
+
 }
 
 .container p{
   margin: 3px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width:930px) {
+  .container{
+    width:85%;
+    /* height:400px; */
+  }
+
+  .svg{
+    height: auto;
+    width: 250px;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url('./Construction\ Page\ for\ Website.png');  
+  }
 }

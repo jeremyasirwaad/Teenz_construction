@@ -9,6 +9,7 @@ function App() {
 	return (
 		<div className="App">
 			<svg
+				className="svg"
 				width="501"
 				height="334"
 				viewBox="0 0 501 334"
