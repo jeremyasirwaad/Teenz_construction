@@ -717,12 +717,39 @@ function App() {
 				<div
 					style={{ marginTop: "20px", display: "flex", alignItems: "center" }}
 				>
-					<AiFillInstagram />
-					<p style={{ marginLeft: "5px" }}>tina_rosario_the_design_house</p>
+					<a
+						style={{
+							display: "flex",
+							alignItems: "center",
+							textDecoration: "none",
+							color: "#FFB8BC"
+						}}
+						href="https://www.instagram.com/tina_rosario_the_design_house/?r=nametag"
+					>
+						<AiFillInstagram />
+						<p style={{ marginLeft: "5px" }}>tina_rosario_the_design_house</p>
+					</a>
 				</div>
-				<div style={{ display: "flex", alignItems: "center" }}>
-					<AiFillFacebook />
-					<p style={{ marginLeft: "5px" }}>Tina Rosario - The Design House</p>
+				<div
+					style={{
+						display: "flex",
+						alignItems: "center",
+						textDecoration: "none",
+						color: "#FFB8BC"
+					}}
+				>
+					<a
+						style={{
+							display: "flex",
+							alignItems: "center",
+							textDecoration: "none",
+							color: "#FFB8BC"
+						}}
+						href="https://www.facebook.com/people/Tina-Rosario-The-Design-House/100086487516274/"
+					>
+						<AiFillFacebook />
+						<p style={{ marginLeft: "5px" }}>Tina Rosario - The Design House</p>
+					</a>
 				</div>
 
 				<p style={{ marginTop: "20px" }}>
